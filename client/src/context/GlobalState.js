@@ -66,7 +66,7 @@ export const GlobalProvider = ({ children }) => {
         type: "ADD_TRANSACTION",
         payload: response.data.data,
       });
-      console.log(response);
+      //console.log(response);
     } catch (error) {
       dispacth({
         type: "TRANSACTION_ERROR",

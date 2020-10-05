@@ -6,7 +6,7 @@ import { GlobalContext } from "../context/GlobalState";
 export const TransactionList = () => {
   // we had an array of 4 objects
   const { transactions, getTransactions } = useContext(GlobalContext);
-  console.log(transactions);
+  //console.log(transactions);
 
   //To avoid an infinite loop, we put an empty array after de function
   useEffect(() => {
